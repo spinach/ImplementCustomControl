@@ -12,7 +12,7 @@
 		E28138761DE120A800514DE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28138741DE120A800514DE6 /* Main.storyboard */; };
 		E28138781DE120A800514DE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28138771DE120A800514DE6 /* Assets.xcassets */; };
 		E281387B1DE120A800514DE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28138791DE120A800514DE6 /* LaunchScreen.storyboard */; };
-		E28138831DE1215600514DE6 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28138821DE1215600514DE6 /* RatingControl.swift */; };
+		E28138851DE1549800514DE6 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28138841DE1549800514DE6 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		E28138771DE120A800514DE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E281387A1DE120A800514DE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E281387C1DE120A800514DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E28138821DE1215600514DE6 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingControl.swift; path = ../RatingControl.swift; sourceTree = "<group>"; };
+		E28138841DE1549800514DE6 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 		E281386F1DE120A800514DE6 /* ImplementCustomControl */ = {
 			isa = PBXGroup;
 			children = (
-				E28138821DE1215600514DE6 /* RatingControl.swift */,
+				E28138841DE1549800514DE6 /* RatingControl.swift */,
 				E28138701DE120A800514DE6 /* AppDelegate.swift */,
 				E28138721DE120A800514DE6 /* ViewController.swift */,
 				E28138741DE120A800514DE6 /* Main.storyboard */,
@@ -140,7 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E28138731DE120A800514DE6 /* ViewController.swift in Sources */,
-				E28138831DE1215600514DE6 /* RatingControl.swift in Sources */,
+				E28138851DE1549800514DE6 /* RatingControl.swift in Sources */,
 				E28138711DE120A800514DE6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
