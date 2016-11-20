@@ -8,7 +8,12 @@
 
 import UIKit
 
+protocol RatingControlDelegate {
+    func ratingDidSet(rating: Int)
+}
+
 class RatingControl: UIView {
+    var delegate: RatingControlDelegate! = nil
     
     // MARK: Properties
     
@@ -66,6 +71,7 @@ class RatingControl: UIView {
     // MARK: Button Action
     func ratingButtonTapped(button: UIButton) {
         rating = ratingButtons.index(of: button)! + 1
+        delegate.ratingDidSet(rating: rating)
     }
     
     func updateButtonSelectionStates() {
